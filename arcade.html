@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <title>Steve's Arcade</title>
+  <head>
+    <link rel="stylesheet" href="arcade.css">
+    <script type='text/javascript' src='https://code.jquery.com/jquery-2.1.3.min.js'></script>
+    <script type='text/javascript'src='arcade.js'></script>
+
+  </head>
+  <body>
+    <div id="arcade_content">
+      <div id="arcade_header">
+        <h1>Steve's Arcade</h1>
+        <p>Press start to play</p>
+      </div>
+
+      <div id="login">
+        <p>Already have an account?</p> <a href="login.html">log in here</a>
+      </div>
+
+      <div id="arcade_user">
+        <h3>Join the players!</h3>
+        <form>
+          <div id="user">
+            <label for="username">Create a username</label>
+            <input type="text" id="username" name="username"/>
+            <br>
+            <label for="email">Enter email address</label>
+            <input type="text" id="email" name="email"/>
+            <br>
+            <label for="password">Enter a password</label>
+            <input type="password" id="password" name="pass"/>
+            <br>
+            <label for="cpassword">Confirm password</label>
+            <input type="password" id="cpassword" name="cpassword"/>
+          </div>
+
+          <div id="console">
+            <p>(OPTIONAL)What is/are your favorite retro console(s)?</p>
+            <label for="nes"> NES </label>
+            <input type="checkbox" id="nes" name="nes"/>
+            <label for="snes"> SNES </label>
+            <input type="checkbox" id="snes" name="snes"/>
+            <label for="sixfour"> Nintendo 64 </label>
+            <input type="checkbox" id="sixfour" name="sixfour"/>
+            <label for="ms"> Master System </label>
+            <input type="checkbox" id="ms" name="ms"/>
+            <label for="gen"> Genesis/Megadrive </label>
+            <input type="checkbox" id="gen" name="gen"/>
+            <label for="sat"> Saturn </label>
+            <input type="checkbox" id="sat" name="sat"/>
+            <label for="atari"> Atari </label>
+            <input type="checkbox" id="atari" name="atari"/>
+            <label for="ps"> PlayStation 1 </label>
+            <input type="checkbox" id="ps" name="ps"/>
+            <label for="gb"> GameBoy </label>
+            <input type="checkbox" id="gb" name="gb"/>
+            <label for="gg"> GameGear </label>
+            <input type="checkbox" id="gg" name="gg"/>
+          </div>
+
+          <div id="genre">
+            <p>(OPTIONAL)What is/are your favorite gaming genre(s)?</p>
+            <label for="plat"> Platformer </label>
+            <input type="checkbox" id="plat" name="plat"/>
+            <label for="fight"> Fighting </label>
+            <input type="checkbox" id="fight" name="fight"/>
+            <label for="rpg"> Role-Playing </label>
+            <input type="checkbox" id="rpg" name="rpg"/>
+            <label for="race"> Racing </label>
+            <input type="checkbox" id="race" name="race"/>
+            <label for="sport"> Sports </label>
+            <input type="checkbox" id="sport" name="sport"/>
+          </div>
+        <input type="submit" value="sign up" onclick="accounts()"/>
+        <a href="emulator.html">signed in</a>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

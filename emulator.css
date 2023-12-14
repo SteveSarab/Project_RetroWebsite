@@ -1,0 +1,31 @@
+#arcade_header {
+  text-align: center;
+}
+
+#arcade_header h1 {
+  color:lightblue;
+  font-family: arcadeclassic;
+  font-size: 64px;
+}
+
+#arcade_header p {
+  color:red;
+  font-family: arcadeclassic;
+  font-size: 32px;
+}
+
+#arcade_content{
+  padding: 10px;
+  margin: 10px;
+  background-color: blue;
+  opacity:0.75;
+}
+
+body {
+  font-family: verdana;
+  background-image: url('city_nights.jpg');
+  color:black;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}

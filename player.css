@@ -1,0 +1,8 @@
+body {
+  font-family: verdana;
+  background-image: url('pixel_land.jpg');
+  color:black;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}

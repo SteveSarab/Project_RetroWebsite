@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Startropics</title>
+		<link rel="stylesheet" href="player.css">
+
+		<style>
+		.buttons{
+			color: white;
+			background-color: #FF3F3F;
+			text-decoration: none;
+			display: inline-block;
+			width: 600px;
+			line-height: 72px;
+			font-size: 1.4em;
+			font-weight: bold;
+			border-left: 2px solid white;
+			border-top: 2px solid white;
+			border-right: 2px solid white;
+			border-bottom: 2px solid white;
+			text-align: center;
+		}
+		</style>
+
+		<script type="text/javascript" src="https://unpkg.com/jsnes/dist/jsnes.min.js"></script>
+		<script type="text/javascript" src="nes-embed.js"></script>
+		<script>window.onload = function(){nes_load_url("nes-canvas", "startropics.nes");}</script>
+	</head>
+	<body>
+		<div style="margin: auto; width: 75%;">
+			<canvas id="nes-canvas" width="256" height="240" style="width: 100%"/>
+		</div>
+		<p>DPad: Arrow keys<br/>Start: Return, Select: Tab<br/>A Button: A, B Button: S</p>
+		<p>Click the controller to return to the menu</p>
+		<a href="emulator.html"><img src="nescontroller.png"></a>
+	</body>
+</html>
